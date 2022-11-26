@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="#fab"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:gravity="center_vertical"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="6dp"
+        android:contentDescription="@string/nav_header_desc"
+        app:srcCompat="@drawable/search" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:text="@string/my_object"
+        android:textSize="45sp"
+        app:tint="#fab"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

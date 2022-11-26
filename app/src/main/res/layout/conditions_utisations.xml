@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConditionsUtisations"
+    android:background="@drawable/backg2"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginVertical="10dp"
+        app:titleTextColor="#00000000"
+        android:layout_marginStart="10dp">
+
+        <TextView
+            android:id="@+id/appCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tauri"
+            android:text="@string/conditions_d_utilisations"
+            android:textAlignment="textStart"
+            android:textColor="#C8A9B0"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="26dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="@string/la_n_cessit_d_adapter_ses_conditions_g_n_rales_d_utilisation"
+                android:textSize="13dp"
+                android:textColor="#90BBE6" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:includeFontPadding="false"
+                android:text="@string/textcond1"
+                android:textColor="#90BBE6"
+                android:justificationMode="inter_word"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="@string/le_traitement_des_donn_es_caract_re_personnel_et_l_information_de_l_utilisateur"
+                android:textSize="13dp"
+                android:textColor="#90BBE6"
+                android:includeFontPadding="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:includeFontPadding="false"
+                android:text="@string/textcond2"
+                android:textColor="#90BBE6"
+                android:justificationMode="inter_word"
+                android:textSize="12dp" />
+
+            <TextView
+                android:text="@string/la_responsabilit_de_l_diteur_exer_ant_une_activit_de_commerce_lectronique"
+                android:textSize="13dp"
+                android:textColor="#90BBE6"
+                android:includeFontPadding="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="13dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:includeFontPadding="false"
+                android:text="@string/textcond3"
+                android:textColor="#90BBE6"
+                android:justificationMode="inter_word"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

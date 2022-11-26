@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dcnx"
+        android:orderInCategory="100"
+        android:title="@string/deconnexion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/acc_obj"
+        android:orderInCategory="100"
+        android:title="@string/acces_object"
+        app:showAsAction="never" />
+</menu>

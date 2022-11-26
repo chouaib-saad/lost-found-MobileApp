@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:id="@+id/LineaireLayout"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:background="#88491973"
+    app:cardCornerRadius="15dp"
+    app:cardBackgroundColor="#88491973"
+    android:elevation="9dp"
+    android:outlineAmbientShadowColor="#88491973"
+    android:outlineSpotShadowColor="#88491973">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp"
+        android:outlineAmbientShadowColor="#88491973"
+        android:outlineSpotShadowColor="#88491973"
+        app:cardBackgroundColor="#88491973"
+        app:cardCornerRadius="15dp"
+        >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:contentDescription="Icon"
+        app:srcCompat="@drawable/asus" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@id/imageView"
+            android:layout_weight="1"
+            android:fontFamily="@font/basic"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#fab"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.cardview.widget.CardView>

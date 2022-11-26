@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre</item>
+        <item>@font/aclonica</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/basic</item>
+        <item>@font/caesar_dressing</item>
+        <item>@font/federo</item>
+        <item>@font/merienda_one</item>
+        <item>@font/tauri</item>
+    </array>
+</resources>

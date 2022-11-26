@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".ResetPwd">
+
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start"
+        android:layout_gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp">
+            <ImageView
+                android:id="@+id/exit_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundTint="#fab"
+                android:onClick="returnToLogin"
+                android:src="?attr/homeAsUpIndicator"
+                app:tint="#fab" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_gravity="bottom"
+            android:paddingStart="7dp"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:id="@+id/logo_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="start"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="5dp"
+                android:pointerIcon="arrow"
+                android:rotation="0"
+                android:rotationY="0"
+                android:src="@drawable/passwordforgot"
+                android:tintMode="src_atop"
+                android:transitionName="logo_image"
+                app:tint="#fab" />
+
+        <TextView
+            android:id="@+id/logo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/federo"
+            android:text="@string/reinisialisation_nde_mot_de_passe"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:transitionName="logo_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="28dp"
+        android:gravity="top|center_horizontal"
+        android:layout_marginHorizontal="10dp">
+    <EditText
+        android:id="@+id/edEmailRes"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:drawablePadding="5dp"
+        android:layout_height="wrap_content"
+        android:drawableTint="#fab"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:accessibilityLiveRegion="none"
+        android:backgroundTint="#fab"
+        android:hint="@string/email"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/browser_actions_title_color"/>
+
+    <Button
+        android:id="@+id/btnResetPassw"
+        android:text="@string/reset_password"
+        android:textAllCaps="false"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        android:background="@drawable/buttonn"
+        android:textColor="@color/white" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

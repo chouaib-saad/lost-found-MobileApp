@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluee"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bluee"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="92dp">
+
+        <ImageView
+            android:id="@+id/imgsearch"            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:tintMode="src_atop"
+            app:srcCompat="@drawable/search"
+            app:tint="#fab" />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/my_object"
+            android:textAlignment="center"
+            android:textColor="#E4FFFFFF"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center|top">
+        <Button
+            android:id="@+id/btnLost"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttonn"
+            android:text="@string/lost_found_home"
+            android:drawableTint="@color/white"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:drawableRight="@drawable/ic_lostfound"
+            android:drawablePadding="5dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnHis"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/ic_seeposts"
+            android:background="@drawable/buttonn"
+            android:text="@string/see_all_posts"
+            android:textAllCaps="false"
+            android:drawableTint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="150dp"
+
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:src="@drawable/homelogo"
+                android:tintMode="src_atop"
+                app:tint="#fab" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
